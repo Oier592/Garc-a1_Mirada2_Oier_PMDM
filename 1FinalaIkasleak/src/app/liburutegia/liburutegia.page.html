@@ -1,2 +1,19 @@
+<ion-content>
+  <ion-grid>
+    <!-- Pruebas a borrar -->
+    <ion-card size="20" size-md="4" *ngFor="let liburu of liburuak">
+      <ion-list>
+        <h2>{{ liburu.titulo }}</h2>
+        <ion-item>{{ liburu.isbn }}</ion-item>
+        <ion-img
+          style="width: 100px; height: 150px"
+          [src]="liburu.imagen"
+        ></ion-img>
+        <p>{{ liburu.sinopsis }}</p>
+      </ion-list>
+    </ion-card>
+  </ion-grid>
+  <!-- Pruebas a borrar -->
 
-
+  <ion-button (click)="Insert_Alerta()">Gehitu</ion-button>
+</ion-content>
