@@ -53,7 +53,13 @@ export class JsonIrakurriService {
 
   insert(liburu_berria: ILiburua): void {
     this.liburuak.push(liburu_berria);
-    //this.liburuak.total++;
+  }
+
+  public erantzuna_Balidatu(izenburua: string, isbn: string) {
+    if (izenburua === 'A' || isbn === 'A') {
+      return false;
+    } else {
+      return true;
+    }
   }
 }
-// Es necesario el total de libros?
