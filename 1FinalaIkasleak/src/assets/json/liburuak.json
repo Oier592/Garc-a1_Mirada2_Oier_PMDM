@@ -1,0 +1,44 @@
+[
+  {
+    "isbn": "9780140449136",
+    "titulo": "El arte de la guerra",
+    "autor": "Sun Tzu",
+    "sinopsis": "Un tratado militar chino del siglo V a.C. que analiza estrategias de guerra aplicables a múltiples ámbitos de la vida.",
+    "imagen": "assets/imgs/arte-de-la-guerra.jpg"
+  },
+  {
+    "isbn": "9788423339180",
+    "titulo": "Cien años de soledad",
+    "autor": "Gabriel García Márquez",
+    "sinopsis": "La historia épica de la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de Macondo.",
+    "imagen": "assets/imgs/cien-anos-de-soledad.jpg"
+  },
+  {
+    "isbn": "9788497592208",
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "sinopsis": "Una novela distópica sobre un futuro totalitario en el que el Gran Hermano vigila todos los aspectos de la vida.",
+    "imagen": "assets/imgs/1984.jpg"
+  },
+  {
+    "isbn": "9788483462036",
+    "titulo": "Los pilares de la Tierra",
+    "autor": "Ken Follett",
+    "sinopsis": "Una saga histórica ambientada en la Edad Media centrada en la construcción de una catedral y las vidas de quienes la rodean.",
+    "imagen": "assets/imgs/los-pilares-de-la-tierra.jpg"
+  },
+  {
+    "isbn": "9788498383620",
+    "titulo": "El nombre del viento",
+    "autor": "Patrick Rothfuss",
+    "sinopsis": "Kvothe, un mago y músico legendario, narra la historia de su vida desde la infancia hasta convertirse en una figura mítica.",
+    "imagen": "assets/imgs/el-nombre-del-viento.jpg"
+  },
+  {
+    "isbn": "9788401012933",
+    "titulo": "La sombra del viento",
+    "autor": "Carlos Ruiz Zafón",
+    "sinopsis": "Un joven encuentra un libro maldito que lo lleva a desentrañar el misterio de su autor desaparecido.",
+    "imagen": "assets/imgs/la-sombra-del-viento.jpg"
+  }
+]
