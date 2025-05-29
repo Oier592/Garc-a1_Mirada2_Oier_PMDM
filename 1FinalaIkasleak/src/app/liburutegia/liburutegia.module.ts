@@ -7,6 +7,7 @@ import {IonicModule } from '@ionic/angular';
 import { LiburutegiaPageRoutingModule } from './liburutegia-routing.module';
 
 import { LiburutegiaPage } from './liburutegia.page';
+import { ModuluaModule } from '../Konponenteak/modulua.module';
 
 @NgModule({
   imports: [
@@ -14,6 +15,7 @@ import { LiburutegiaPage } from './liburutegia.page';
     FormsModule,
     IonicModule,
     LiburutegiaPageRoutingModule,
+    ModuluaModule,
 ],
   declarations: [LiburutegiaPage]
 })

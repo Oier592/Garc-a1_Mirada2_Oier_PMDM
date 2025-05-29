@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { JsonIrakurriService } from '../zerbitzuak/json-irakurri.service';
 import { AlertController } from '@ionic/angular';
+
 interface ILiburua {
   isbn: string;
   titulo: string;
@@ -19,7 +20,7 @@ interface ILiburua {
 })
 export class LiburutegiaPage implements OnInit {
   liburuak: ILiburua[] = [];
-
+  titulua: string = 'A';
   constructor(
     private jsonIrakurriService: JsonIrakurriService,
     private alertController: AlertController
@@ -42,7 +43,6 @@ export class LiburutegiaPage implements OnInit {
         { name: 'irudia', placeholder: 'Irudia', type: 'text' },
         { name: 'argitaletxea', placeholder: 'Argitaletxea', type: 'text' },
         { name: 'orrialdeak', placeholder: 'Orrialdeak', type: 'number' },
-
       ],
       buttons: [
         {
@@ -59,7 +59,7 @@ export class LiburutegiaPage implements OnInit {
               sinopsis: liburu_berria.sinopsis,
               imagen: liburu_berria.irudia,
               argitaletxea: liburu_berria.argitaletxea,
-              orrialdeak: liburu_berria.orrialdeak
+              orrialdeak: liburu_berria.orrialdeak,
             });
           },
         },
